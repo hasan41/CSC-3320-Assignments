@@ -1,0 +1,60 @@
+Testing made some changes -----> Assignment 01:
+
+1) Getting help on a specific command? 
+Ans: man ls 		executes the help box on vim and shows a lot of options (where "ls" is a command).
+
+2) The home row keys for manipulating your location in a document (h,j,k,l)?
+ANS: Up one line : <cursor up> or k
+     Down one line: j
+     Right one character: l
+     Left one character: h
+
+3) Insertion? 
+ANS: i		Begins while changing the command and insert text just before the cursor. 
+     I		Insert text prior to the beginning of the cursor position in vim. 
+
+4) Appending: 
+ANS: Appending works when adding text at any place in the file. 
+     a		Appends the text after cursor up to the time right before the "ESC" key is pressed.
+     A 		Appends the text to the end of the ongoing line until "ESC" key is pressed. 
+
+5) Substitution
+ANS: r		command which replaces current character with the next one and no "ESC" needed. 
+     R		command which replaces characters, beginning with the cursor position and until "ESC" pressed.
+
+
+6) undoing the last command
+ANS: U		Undo the last command made anywhere in the file (Using 'u' twice will undo the undo command). 
+     u		Command that undo all the changes made on the line whatever is written.		
+
+
+7) dropping into a command line mode
+ANS: ESC, to get into vi mode. 
+
+
+8) range-based deletion and substitution
+ANS: x		Delete the single character under the cursor.
+     dd		delete the entire current line.
+     D		Delete some part of the line, including the present cursor. 
+
+
+
+9) Finding a character or string in a document
+ANS: /string	search forward string in the document in vim.
+      n		repeat the last string
+
+
+10)  four ways of quitting a document (not including ^c)
+
+i)   x!		Quitting one's directory and saved all changes of the work in the vim.
+     AND 
+     wq!
+
+ii)  :q!	Quitting one's directory without saving changes.
+iii) :w		Writing, editing, and buffering to a new file name in vim.
+
+
+11.  running a shell command from the editor.
+ANS: :sh    executes all the shell commands 
+     :!unix 
+     
